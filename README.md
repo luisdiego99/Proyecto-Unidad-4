@@ -1,10 +1,12 @@
 # Proyecto-Unidad-4
-COTIZADOR, ASEGURADORA TK-U
+COTIZADOR
 
 Este repositorio contiene el código fuente de un cotizador para la Aseguradora TK-U.
+El código fuente se encuentra en master branch. 
+Este código contiene el proyecto adicional y la actividad extra. 
 Puede ser copiado y pegado en JSBin, para poder ser utilizado.
 
-ASEGURADORA TK-U
+PROBLEMATICA : ASEGURADORA TK-U
 
 El problema central es que la cantidad de cotizaciones que se pueden realizar en un dia
 esta limitado por la cantidad de empleados que la empresa pueda tener, pues se requiere 
@@ -30,12 +32,17 @@ El algoritmo propuesto funciona de la siguiente manera:
     Si es mayor de edad, se continúa al siguiente paso.
 2. Se pide la edad de el/la conyúgue. En caso de no tener, es decir, ser soltero/a, se le 
     pide al cliente ingresar el valor "0". 
-3. Se pide el número de hijos. 
-4. Se calcúla el porcentaje extra según la edad del cliente. Puede ser 10%, 20% o 30%. 
-5. Se calcúla el porcentaje extra según la edad del cónyugue. Puede ser 10%, 20% o 30%. 
-6. Se calcúla el porcentaje extra según la cantidad de hijos. En este caso, se agrega 10% por cada hijo.
-7. Posteriormente se suma el precio base y las cantidades extra. 
-8 Finalmente se retorna una alerta con el valor final de la cotización. 
+3. Se pide el número de hijos.
+4. Se pide el número de propiedades.
+5. Se pide el valor numérico del salario mensual.
+6. Se calcúla el porcentaje extra según la edad del cliente. Puede ser 10%, 20% o 30%. 
+7. Se calcúla el porcentaje extra según la edad del cónyugue. Puede ser 10%, 20% o 30%. 
+8. Se calcúla el porcentaje extra según la cantidad de hijos. En este caso, se agrega 20% por cada hijo.
+9. Se calcúla el porcentaje extra según el número de propiedades. Se agrega 35% por cada propiedad.
+10. Se calcúla el porcentaje extra en base al salario. En este caso, 5% adicional del salario.
+11. Posteriormente se suma el precio base y las cantidades extra. 
+12. Se retorna una alerta con el valor final de la cotización.
+13. Se pregunta al cliente si desea salir o repetir el proceso de cotización.
 
 ASPECTOS A MEJORAR: 
 
