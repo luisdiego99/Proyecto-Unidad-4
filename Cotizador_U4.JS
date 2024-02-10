@@ -39,7 +39,7 @@ if (spouse_age <18) {
 }
 
 // Determinate fee based on children number.
-children_fee = children_number * base_price * 0.1
+children_fee = children_number * base_price * 0.2
 
 //Add all fees to base price
 var total_bill = base_price + customer_age_fee + spouse_age_fee + children_fee;
